@@ -5,6 +5,7 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
-
+UsersFavorite.destroy_all 
+Favorite.destroy_all 
 User.destroy_all 
 User.create(id: 1, username: "John", password_digest: "111", avatar: "https://static.toiimg.com/photo/76729750.cms")

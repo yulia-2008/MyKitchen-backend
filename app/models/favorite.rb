@@ -1,5 +1,5 @@
 class Favorite < ApplicationRecord
-    has_many :users_favorites
-    has_many :users, through: :users_favorites
+  
+    belongs_to :user
 
 end
