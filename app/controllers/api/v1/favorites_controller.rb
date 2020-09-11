@@ -14,6 +14,6 @@ class Api::V1::FavoritesController < ApplicationController
         private
        
         def favorite_params
-          params.require(:favorite).permit(:title, :user_id, :ingredients, :instructions)
+          params.require(:favorite).permit(:title, :user_id, :ingredients, :instructions, :image)
         end
 end
