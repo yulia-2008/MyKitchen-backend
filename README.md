@@ -18,11 +18,11 @@
 <p>- Deleting recipe from your collection of favorites. </p>
 <p>- Changing Users Avatar. </p>
 
-<h2>Frontend Built With</h2>
+<h2> Backend Built With</h2>
 <ul>
- <li> <b>React.js</b> for building user interface. </li>
- <li> Utilized <b>React Router</b> to establish a dynamic routing system through the web app </li>
- <li> Spoonacular open data source API for recipe content (www.spoonacular.com) 
+ <li> <b>Ruby on Rails</b> to create RESTful design of the app.</li>
+ <li> <b>Postgres</b> database for managing the data.</li>
+ <li> Integrated <b>Auth</b> for user authentication and authorization for app security.</li>
 </ul>
 
 
